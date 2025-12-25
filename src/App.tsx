@@ -1,4 +1,3 @@
-import React from "react";
 import MainInvite from "./components/MainInvite";
 import LoveSection from "./components/LoveSection";
 import GallerySection from "./components/GallerySection";
