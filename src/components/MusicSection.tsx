@@ -9,15 +9,7 @@ export default function MusicSection() {
             Story, Here Is Ours.
           </h2>
           <p className="text-xl text-[#7a3b1e] mb-8">Check out the playlist we’ve curated together.</p>
-        </div>
-        {/* Right: Music player */}
-        <div className="flex-1 flex flex-col items-center md:items-end">
-          <img
-            src="https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=500&q=80"
-            alt="Campfire"
-            className="w-[350px] h-[260px] object-cover rounded-md shadow-lg mb-6"
-          />
-          <div className="w-full max-w-md">
+             <div className="w-full max-w-md">
             <h3 style={{ fontFamily: "serif" }} className="text-3xl text-[#7a3b1e] font-normal mb-1">
               Time Goes By
             </h3>
@@ -27,6 +19,23 @@ export default function MusicSection() {
               Your browser does not support the audio element.
             </audio>
           </div>
+        </div>
+        {/* Right: Music player */}
+        <div className="flex-1 flex flex-col items-center md:items-end">
+          <img
+            src="/images/musicsectionimage.jpg"
+            alt="Couple"
+            className="
+    w-[350px]
+    aspect-[3/4]
+    object-cover
+    rounded-md
+    shadow-lg
+    mb-6
+  "
+          />
+
+       
         </div>
       </div>
     </section>
