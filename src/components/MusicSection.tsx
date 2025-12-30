@@ -1,15 +1,25 @@
+import { motion } from "framer-motion";
 export default function MusicSection() {
   return (
     <section className="w-full bg-[#f8e6f3] py-20 px-4 flex flex-col items-center">
       <div className="max-w-6xl w-full mx-auto flex flex-col md:flex-row md:items-start md:justify-between gap-12">
         {/* Left: Text */}
-        <div className="flex-1 flex flex-col justify-center items-center md:items-start text-center md:text-left">
-          <h2 style={{ fontFamily: "serif" }} className="text-5xl md:text-6xl font-normal text-[#7a3b1e] mb-6 leading-tight">
-            Every Song Tells a<br />
-            Story, Here Is Ours.
-          </h2>
-          <p className="text-xl text-[#7a3b1e] mb-8">Check out the playlist we’ve curated together.</p>
-             <div className="w-full max-w-md">
+        <div className="flex flex-col justify-around h-[470px]">
+          <div>
+            <motion.h2
+              style={{ fontFamily: "serif" }}
+              className="text-5xl md:text-6xl font-normal text-[#7a3b1e] mb-6 leading-tight text-center"
+              initial={{ scale: 0.8, opacity: 0, y: 20 }}
+              whileInView={{ scale: 1, opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ type: "spring", stiffness: 120, damping: 12 }}>
+              Every Song Tells a<br />
+              Story, Here Is Ours.
+            </motion.h2>
+
+            <p className="text-xl text-[#7a3b1e] mb-8">Check out the playlist we’ve curated together.</p>
+          </div>
+          <div className="w-full max-w-md">
             <h3 style={{ fontFamily: "serif" }} className="text-3xl text-[#7a3b1e] font-normal mb-1">
               Time Goes By
             </h3>
@@ -20,7 +30,6 @@ export default function MusicSection() {
             </audio>
           </div>
         </div>
-        {/* Right: Music player */}
         <div className="flex-1 flex flex-col items-center md:items-end">
           <img
             src="/images/musicsectionimage.jpg"
@@ -34,8 +43,6 @@ export default function MusicSection() {
     mb-6
   "
           />
-
-       
         </div>
       </div>
     </section>

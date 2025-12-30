@@ -17,7 +17,7 @@ export default function MainInvite() {
           </h1>
 
           <p className="mt-4 text-lg opacity-90">
-            Invite You To Celebrate Their Wedding
+            Invite You To Celebrate Our Wedding
           </p>
 
           <p className="mt-2 text-sm opacity-80">
@@ -69,7 +69,7 @@ export default function MainInvite() {
           </h1>
 
           <p className="mt-6 text-2xl opacity-90">
-            Invite You To Celebrate Their Wedding
+            Invite You To Celebrate Our Wedding
           </p>
 
           <p className="mt-4 text-sm opacity-80">
