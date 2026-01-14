@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function MainInvite() {
   return (
-    <section className="min-h-screen bg-[#5F7F86] relative overflow-hidden">
+    <section className="min-h-screen bg-[#F3D6D3] relative overflow-hidden">
 
       {/* MOBILE LAYOUT */}
       <div className="relative md:hidden text-center text-white">
@@ -10,17 +10,17 @@ export default function MainInvite() {
         {/* TOP CONTENT */}
         <div className="pt-20 px-6 relative z-20">
           <h1
-            style={{ fontFamily: "Fraunces, serif" }}
+            style={{ fontFamily: "Fraunces, serif", color: "#4A3F3A" }}
             className="text-4xl font-light leading-tight"
           >
             Abilash & Arya
           </h1>
 
-          <p className="mt-4 text-lg opacity-90">
+          <p className="mt-4 text-lg opacity-90" style={{ color: "#4A3F3A" }}>
             Invite You To Celebrate Our Wedding
           </p>
 
-          <p className="mt-2 text-sm opacity-80">
+          <p className="mt-2 text-sm opacity-80" style={{ color: "#4A3F3A" }}>
             Sunday, February 8, 2025
           </p>
         </div>
@@ -30,7 +30,7 @@ export default function MainInvite() {
           initial={{ y: 40, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
-          src="/images/20251224_160153.jpg"
+          src="/images/galleryImages/1000082917.jpg"
           alt="Couple"
           className="
             relative
@@ -62,17 +62,17 @@ export default function MainInvite() {
         {/* LEFT PANEL */}
         <div className="w-1/2 flex flex-col justify-center px-20 text-white relative z-10">
           <h1
-            style={{ fontFamily: "Fraunces, serif" }}
+            style={{ fontFamily: "Fraunces, serif", color: "#4A3F3A" }}
             className="text-7xl font-light leading-tight"
           >
             Abilash &<br />Arya
           </h1>
 
-          <p className="mt-6 text-2xl opacity-90">
+          <p className="mt-6 text-2xl opacity-90" style={{ color: "#4A3F3A" }}>
             Invite You To Celebrate Our Wedding
           </p>
 
-          <p className="mt-4 text-sm opacity-80">
+          <p className="mt-4 text-sm opacity-80" style={{ color: "#4A3F3A" }}>
             Sunday, February 8, 2025
           </p>
         </div>
@@ -91,7 +91,7 @@ export default function MainInvite() {
           initial={{ y: 40, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1.8, ease: "easeOut" }}
-          src="/images/20251224_160153.jpg"
+          src="/images/galleryImages/1000082917.jpg"
           alt="Couple"
           className="
             absolute

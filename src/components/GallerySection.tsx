@@ -7,30 +7,25 @@ import "swiper/css/pagination";
 
 const slides = [
   {
-    image:
-      "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80",
-    text:
-      "I'm a testimonial. Click to edit me and add text that says something nice about you and your services.",
+    image: "/images/galleryImages/1000082918.jpg",
+    text: "Every love story is beautiful, but ours is our favorite.",
     name: "Abilash & Arya",
     year: "2026",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-    text:
-      "A beautiful story that captures love, moments, and memories forever.",
-    name: "Mary & John",
+    image: "/images/galleryImages/1000082911.jpg",
+    text: "A love written in glances, sealed with laughter, and cherished forever.",
+    name: "Arya & Abilash",
     year: "2034",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80",
-    text:
-      "Every picture tells a story worth remembering.",
-    name: "Anna & Leo",
+    image: "/images/galleryImages/1000082914.jpg",
+    text: "Moments fade, memories stay — love lives in every frame.",
+    name: "Arya & Abilash",
     year: "2033",
   },
 ];
+
 
 export default function GallerySection() {
   return (
